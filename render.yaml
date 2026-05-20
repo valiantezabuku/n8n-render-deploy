@@ -9,7 +9,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: NODE_OPTIONS
-        value: "--max-old-space-size=2048"   # <--- ADD THIS LINE
+        value: "--max-old-space-size=2048"
       - key: N8N_HOST
         value: 0.0.0.0
       - key: N8N_PORT
